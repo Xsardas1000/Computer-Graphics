@@ -1,0 +1,27 @@
+﻿Сборка начата 04.12.15 21:06:04.
+     1>Проект "\\psf\Home\Desktop\CG3\RayTracer\src\RayTracer.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\x86_amd64\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp Scene.cpp Tracer.cpp
+         Main.cpp
+     1>Main.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(211): см. объявление "fopen"
+     1>Main.cpp(19): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230): см. объявление "fscanf"
+         Scene.cpp
+         Tracer.cpp
+     1>Tracer.cpp(178): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(179): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(180): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"\\psf\Home\Desktop\CG3\RayTracer\src\..\bin\RayTracer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\psf\Home\Desktop\CG3\RayTracer\src\..\bin\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\psf\Home\Desktop\CG3\RayTracer\src\..\bin\RayTracer.lib" /MACHINE:X64 x64\Release\Main.obj
+         x64\Release\Scene.obj
+         x64\Release\Tracer.obj
+         Создание кода
+     1>\\psf\home\desktop\cg3\raytracer\src\tracer.cpp(80): warning C4715: CTracer::RaySphereIntersection: значение возвращается не при всех путях выполнения
+         Создание кода завершено
+         RayTracer.vcxproj -> \\psf\Home\Desktop\CG3\RayTracer\src\..\bin\RayTracer.exe
+     1>Сборка проекта "\\psf\Home\Desktop\CG3\RayTracer\src\RayTracer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.32
